@@ -21,6 +21,7 @@ public class ReactiveSpringMongoApplication {
         SpringApplication.run(ReactiveSpringMongoApplication.class, args);
     }
 
+    // Comments
     @Bean
     CommandLineRunner start(ProductRepository productRepository, CategoryRepository categoryRepository){
         return args -> {
